@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "mcjs bridge",
+    "description": "command bridge for mcjs",
+    "uuid": "6f1c2a9e-4b7d-4e3a-9f85-2d0c7b6a1e43",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c5e2b8d1-7a3f-4d9e-b610-8f2a4c9e1b07",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "9a4e7d12-3c5b-4f8e-8a21-7e6d5c4b3a92",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    }
+  ]
+}

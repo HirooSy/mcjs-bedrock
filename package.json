@@ -1,0 +1,20 @@
+{
+  "name": "mcjs",
+  "version": "2.1.0",
+  "description": "Node.js manager for the Minecraft Bedrock Dedicated Server",
+  "type": "module",
+  "main": "start.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node start.js",
+    "setup": "node start.js install",
+    "check": "node start.js check",
+    "doctor": "node start.js doctor",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {}
+}
