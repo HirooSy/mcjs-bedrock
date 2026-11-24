@@ -1,17 +1,21 @@
-# mcjs
+# MCJS-BEDROCK
 
-A Node.js manager for the Minecraft Bedrock Dedicated Server (BDS). It downloads, installs, updates, configures, restarts and backs up the server for you. No `npm install`, no manual downloads.
+<img height="25" alt="node version" src="https://img.shields.io/badge/NodeJS_>=18-000000.svg?&style=for-the-badge&logo=node.js&logoColor=green" />
+
+> [!NOTE]
+> A Node.js manager for the Minecraft Bedrock Dedicated Server (BDS). It downloads, installs, updates, configures, restarts and backs up the server for you. No `npm install`, no manual downloads.
 
 ## Features
 
-- Automatic install and update from the official Mojang API, with resilient downloads and integrity checks
-- One readable `config.js` that generates `server.properties`, the allowlist and permissions
-- Auto restart after crashes, scheduled backups, clean one line logs
-- In-game slash commands, including teleport points and random teleport
-- Live status sidebar in game (TPS and tick time)
-- Drop-in behavior and resource packs (`.mcpack`, `.zip`, `.mcaddon` or folders)
-- Plugins written as plain JavaScript files
-- Zero dependencies: only Node.js built-in modules
+- Easy to set up.
+- Automatic install and update from the official Mojang API, with resilient downloads and integrity checks.
+- One readable `config.js` that generates `server.properties`, the allowlist and permissions.
+- Auto restart after crashes, scheduled backups, clean one line logs.
+- In-game slash commands, including teleport points and random teleport.
+- Live status sidebar in game (TPS and tick time).
+- Drop-in behavior and resource packs (`.mcpack`, `.zip`, `.mcaddon` or folders).
+- Plugins written as plain JavaScript files.
+- Zero dependencies: only Node.js built-in modules.
 
 ## Requirements
 
