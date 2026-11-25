@@ -34,7 +34,7 @@ On the first run mcjs downloads the server, writes its configuration, installs t
 ```
 [ info ] installing bedrock server 1.26.13.1 (release)
 [ info ] installed bedrock server 1.26.13.1
-[ info ] server ready 93.177.64.145:5497
+[ info ] server ready 128.0.0.1:3000
 [ info ] player joined Steve
 ```
 
