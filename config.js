@@ -26,7 +26,7 @@ export default {
     tempDirectory: null // null (system temp), /path/to/folder
   },
   network: {
-    address: "93.177.64.145", // null (SERVER_IP or localhost), 93.177.64.145, play.example.com
+    address: "128.0.0.1", // null (SERVER_IP or localhost), 93.177.64.145, play.example.com
     port: null, // null (SERVER_PORT or 19132), 1 to 65535
     portV6: null // null (port + 1 or 19133), 1 to 65535
   },
